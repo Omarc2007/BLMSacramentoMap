@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  
+}
+
+.container{
+  background-image: url('blmbg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.headtitle {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #D62124, #F6D333, #A8621E);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  position:absolute;
+  left:25%;
+  margin-top: 20px;
+  padding: 30px;
+}
+h3{
+  font-size: 30px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #D62124, #F6D333, #A8621E);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+ 
+}
+.history {
+ font-family: Tahoma, Verdana, Segoe, sans-serif; 
+ font-size: 23px;
+ font-style: italic;
+ font-variant: normal;
+ font-weight: 400;
+ line-height: 32.8571px;
+ background-image: linear-gradient(to left, #D62124, #1C9E22, #A8621E);
+ color: transparent;
+ background-clip: text;
+ -webkit-background-clip: text;
+
+}
+.map {
+  left:25%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
